@@ -7,19 +7,23 @@ Prerequisites
 Install Terraform and git on the machine.
 Install ruby and ruby json.
 Export the ACCESS KEY and SECRET KEY of AWS as an environment variable or pass it during the run time
+
+
 yum install git ruby ruby-json -y
 wget https://releases.hashicorp.com/terraform/0.12.6/terraform_0.12.6_linux_amd64.zip
 sudo unzip ./terraform_0.11.13_linux_amd64.zip -d /bin/
 
 Running The Automation
+
+
 Clone the current repo to your local machine using
-git clone https://github.com/Anurag-30/MediaWiki.git
+ git clone git clone https://github.com/harshbhardwaj5/MediaWiki-Automation-Thoughtworks.git
 
 Move into Terraform directory
-cd MediaWiki/Terraform/
+ cd MediaWiki/Terraform/
 
 Run the Terraform script
-terraform apply
+ terraform apply
 
 Need to specify the region at the run time eg:us-east-1.
 
