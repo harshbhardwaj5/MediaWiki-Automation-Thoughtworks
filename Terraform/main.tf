@@ -44,7 +44,7 @@ resource "aws_route_table" "public-rt" {
 
 
 
-## Associate Public-Route table to Public Subnet
+## Associate Public-Route table to Public  Subnet
 resource "aws_route_table_association" "public-assoc" {
 
     subnet_id                   = "${aws_subnet.public-subnets.id}"
